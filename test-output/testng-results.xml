@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7259" started-at="2019-01-26T16:01:06Z" finished-at="2019-01-26T16:01:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7259" started-at="2019-01-26T16:01:06Z" finished-at="2019-01-26T16:01:13Z">
+      <class name="com.crm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.crm.testcases.LoginPageTest@2d6eabae]" name="initialization" is-config="true" duration-ms="16871" started-at="2019-01-26T21:30:49Z" finished-at="2019-01-26T21:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="launchBrowserAndGetUrl()[pri:1, instance:com.crm.testcases.LoginPageTest@2d6eabae]" name="launchBrowserAndGetUrl" duration-ms="85" started-at="2019-01-26T21:31:06Z" finished-at="2019-01-26T21:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndGetUrl -->
+        <test-method status="PASS" signature="LoginPagetitleTest()[pri:2, instance:com.crm.testcases.LoginPageTest@2d6eabae]" name="LoginPagetitleTest" duration-ms="528" started-at="2019-01-26T21:31:06Z" finished-at="2019-01-26T21:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPagetitleTest -->
+        <test-method status="PASS" signature="CRMImageTest()[pri:3, instance:com.crm.testcases.LoginPageTest@2d6eabae]" name="CRMImageTest" duration-ms="98" started-at="2019-01-26T21:31:07Z" finished-at="2019-01-26T21:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMImageTest -->
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.crm.testcases.LoginPageTest@2d6eabae]" name="loginTest" duration-ms="6502" started-at="2019-01-26T21:31:07Z" finished-at="2019-01-26T21:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.crm.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

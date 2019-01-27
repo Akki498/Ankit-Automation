@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Free CRM Automation Suite" duration-ms="38056" started-at="2019-01-26T16:46:01Z" finished-at="2019-01-26T16:46:39Z">
+    <groups>
+    </groups>
+    <test name="[BS-01]  Login Into Application" duration-ms="11890" started-at="2019-01-26T16:46:01Z" finished-at="2019-01-26T16:46:13Z">
+      <class name="com.crm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="launchBrowserAndGetUrl()[pri:1, instance:com.crm.testcases.LoginPageTest@457e2f02]" name="launchBrowserAndGetUrl" duration-ms="38" started-at="2019-01-26T22:16:01Z" finished-at="2019-01-26T22:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndGetUrl -->
+        <test-method status="PASS" signature="LoginPagetitleTest()[pri:2, instance:com.crm.testcases.LoginPageTest@457e2f02]" name="LoginPagetitleTest" duration-ms="16" started-at="2019-01-26T22:16:01Z" finished-at="2019-01-26T22:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPagetitleTest -->
+        <test-method status="PASS" signature="CRMImageTest()[pri:3, instance:com.crm.testcases.LoginPageTest@457e2f02]" name="CRMImageTest" duration-ms="68" started-at="2019-01-26T22:16:01Z" finished-at="2019-01-26T22:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMImageTest -->
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.crm.testcases.LoginPageTest@457e2f02]" name="loginTest" duration-ms="11747" started-at="2019-01-26T22:16:01Z" finished-at="2019-01-26T22:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.crm.testcases.LoginPageTest -->
+    </test> <!-- [BS-01]  Login Into Application -->
+    <test name="[BS-02]  Home Page Test" duration-ms="7113" started-at="2019-01-26T16:46:13Z" finished-at="2019-01-26T16:46:20Z">
+      <class name="com.crm.testcases.HomePageTest">
+        <test-method status="PASS" signature="launchBrowserAndGetUrl()[pri:1, instance:com.crm.testcases.HomePageTest@5e5792a0]" name="launchBrowserAndGetUrl" duration-ms="5" started-at="2019-01-26T22:16:13Z" finished-at="2019-01-26T22:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndGetUrl -->
+        <test-method status="PASS" signature="HomePageTitle()[pri:2, instance:com.crm.testcases.HomePageTest@5e5792a0]" name="HomePageTitle" duration-ms="313" started-at="2019-01-26T22:16:13Z" finished-at="2019-01-26T22:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitle -->
+        <test-method status="PASS" signature="VerifyUsernameTest()[pri:3, instance:com.crm.testcases.HomePageTest@5e5792a0]" name="VerifyUsernameTest" duration-ms="416" started-at="2019-01-26T22:16:13Z" finished-at="2019-01-26T22:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsernameTest -->
+        <test-method status="PASS" signature="ContactsTabTest()[pri:4, instance:com.crm.testcases.HomePageTest@5e5792a0]" name="ContactsTabTest" duration-ms="2120" started-at="2019-01-26T22:16:13Z" finished-at="2019-01-26T22:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactsTabTest -->
+        <test-method status="PASS" signature="DealsTabTest()[pri:5, instance:com.crm.testcases.HomePageTest@5e5792a0]" name="DealsTabTest" duration-ms="2178" started-at="2019-01-26T22:16:16Z" finished-at="2019-01-26T22:16:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DealsTabTest -->
+        <test-method status="PASS" signature="TaskPageTest()[pri:6, instance:com.crm.testcases.HomePageTest@5e5792a0]" name="TaskPageTest" duration-ms="2076" started-at="2019-01-26T22:16:18Z" finished-at="2019-01-26T22:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TaskPageTest -->
+      </class> <!-- com.crm.testcases.HomePageTest -->
+    </test> <!-- [BS-02]  Home Page Test -->
+    <test name="[BS-03]  Contact Page Test" duration-ms="19015" started-at="2019-01-26T16:46:20Z" finished-at="2019-01-26T16:46:39Z">
+      <class name="com.crm.testcases.ContactPageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.crm.testcases.ContactPageTest@47c62251]" name="initialization" is-config="true" duration-ms="12607" started-at="2019-01-26T22:15:48Z" finished-at="2019-01-26T22:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="launchBrowserAndGetUrl()[pri:1, instance:com.crm.testcases.ContactPageTest@47c62251]" name="launchBrowserAndGetUrl" duration-ms="26" started-at="2019-01-26T22:16:20Z" finished-at="2019-01-26T22:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndGetUrl -->
+        <test-method status="PASS" signature="VerifycontactsLabelTest()[pri:2, instance:com.crm.testcases.ContactPageTest@47c62251]" name="VerifycontactsLabelTest" duration-ms="3095" started-at="2019-01-26T22:16:20Z" finished-at="2019-01-26T22:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycontactsLabelTest -->
+        <test-method status="PASS" signature="CreateContactsTest()[pri:3, instance:com.crm.testcases.ContactPageTest@47c62251]" name="CreateContactsTest" duration-ms="10238" started-at="2019-01-26T22:16:23Z" finished-at="2019-01-26T22:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactsTest -->
+        <test-method status="PASS" signature="SelectContactsTest()[pri:4, instance:com.crm.testcases.ContactPageTest@47c62251]" name="SelectContactsTest" duration-ms="4979" started-at="2019-01-26T22:16:33Z" finished-at="2019-01-26T22:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectContactsTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.testcases.ContactPageTest@47c62251]" name="teardown" is-config="true" duration-ms="674" started-at="2019-01-26T22:16:38Z" finished-at="2019-01-26T22:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.testcases.ContactPageTest -->
+    </test> <!-- [BS-03]  Contact Page Test -->
+  </suite> <!-- Free CRM Automation Suite -->
+</testng-results>

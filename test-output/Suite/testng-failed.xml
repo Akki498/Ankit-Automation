@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="[BS-01]  Login Into Application(failed)">
+    <classes>
+      <class name="com.crm.testcases.LoginPageTest">
+        <methods>
+          <include name="LoginPagetitleTest"/>
+          <include name="CRMImageTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="launchBrowserAndGetUrl"/>
+        </methods>
+      </class> <!-- com.crm.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- [BS-01]  Login Into Application(failed) -->
+  <test name="[BS-02]  Homage Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.HomePageTest">
+        <methods>
+          <include name="HomePageTitle"/>
+          <include name="VerifyUsernameTest"/>
+          <include name="DealsTabTest"/>
+          <include name="TaskPageTest"/>
+          <include name="ContactsTabTest"/>
+          <include name="teardown"/>
+          <include name="launchBrowserAndGetUrl"/>
+        </methods>
+      </class> <!-- com.crm.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- [BS-02]  Homage Test(failed) -->
+  <test name="[BS-03]  Contact Page Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.ContactPageTest">
+        <methods>
+          <include name="launchBrowserAndGetUrl"/>
+          <include name="teardown"/>
+          <include name="CreateContactsTest"/>
+          <include name="SelectContactsTest"/>
+          <include name="VerifycontactsLabelTest"/>
+        </methods>
+      </class> <!-- com.crm.testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- [BS-03]  Contact Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

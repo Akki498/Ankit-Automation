@@ -1,0 +1,9 @@
+com\crm\pages\LoginPage.class
+com\crm\util\TestUtil.class
+com\crm\pages\ContactsPage.class
+com\crm\pages\DealsPage.class
+com\crm\pages\HomePage.class
+com\crm\pages\SignUpPage.class
+com\crm\base\Testbase.class
+com\crm\pages\TaskPage.class
+com\crm\util\Xls_Reader.class

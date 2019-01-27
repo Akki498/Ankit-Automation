@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Automation Suite"> 
+
+ <test name="[BS-01]  Login Into Application">
+ <parameter name="className" value="Login Application"/>
+    <classes>
+        <class name="com.crm.testcases.LoginPageTest" ></class> 
+    </classes>
+</test>
+
+ <test name="[BS-02]  Home Page Test">
+ <parameter name="className" value="Home Page Test"/>
+    <classes>
+        <class name="com.crm.testcases.HomePageTest" ></class> 
+    </classes>
+ </test>
+ 
+<test name="[BS-03]  Contact Page Test">
+<parameter name="className" value="Contact Page Test"/>
+    <classes>
+        <class name="com.crm.testcases.ContactPageTest" ></class> 
+    </classes>
+</test>
+</suite> <!-- Suite -->
