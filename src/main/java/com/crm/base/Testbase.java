@@ -70,7 +70,7 @@ public class Testbase {
 		
 		
 		if (Browsername.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\FreeCRM\\FreeCRM\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"\\chromedriver.exe");
 			
 			driver=new ChromeDriver();
 			
