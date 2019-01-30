@@ -36,7 +36,7 @@ public class Testbase {
 
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("D:\\FreeCRM\\FreeCRM\\src\\main\\java\\com\\crm\\config\\com.crm.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\com\\crm\\config\\com.crm.properties");
 			prop.load(ip);
 			
 			InputStream loggerStream = new FileInputStream(System.getProperty("user.dir") + "//src//test//resources//log4j.properties"); //src\test\resources\log4j.properties
