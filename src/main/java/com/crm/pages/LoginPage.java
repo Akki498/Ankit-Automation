@@ -49,12 +49,9 @@ public class LoginPage extends Testbase {
 	}
 
 	public HomePage login(String Uname, String Pwd) throws InterruptedException {
-
-		String p=prop.getProperty("username");
-		System.out.println(p);
-		username.sendKeys(prop.getProperty("username"));
-		password.sendKeys(prop.getProperty("password"));
-		Thread.sleep(3000);
+		username.sendKeys(Uname);
+		password.sendKeys(Pwd);
+		Thread.sleep(2000);
 		loginbtn.click();
 
 		return new HomePage();
