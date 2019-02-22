@@ -31,7 +31,7 @@ public class LoginPageTest extends Testbase {
 		try {
 			
 		String title = LoginPage.validateLoginpagetitle();
-		Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
+		Assert.assertEquals(title, "CRMPRO Log In Screen");
 		}catch(Throwable t){
 			throw new Exception(Throwables.getStackTraceAsString(t));
 		}
